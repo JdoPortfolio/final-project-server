@@ -20,7 +20,7 @@ const dealershipSchema = new Schema(
           }
         },
         owner: {
-          type: mongoose.SchemaTypes.ObjectId,
+          type: Schema.Types.ObjectId,
           ref: 'User',
           required: true
         },

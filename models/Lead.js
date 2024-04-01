@@ -16,15 +16,25 @@ const leadSchema = new Schema(
     interestedIn: {
       type: String,
       required: true,
-      enum: ['general info', 'financing', 'schedule an appointment', 'test-drive'],
+      enum: [
+        "general info",
+        "financing",
+        "schedule an appointment",
+        "test-drive",
+      ],
     },
     message: {
       type: String,
       required: false,
     },
     dealership: {
-      type: mongoose.SchemaTypes.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "Dealership",
+      required: true,
+    },
+    car: {
+      type: Schema.Types.ObjectId,
+      ref: "Car",
       required: true,
     },
   },

@@ -26,14 +26,13 @@ const carSchema = new Schema(
         required: function() { return this.condition === 'used'; } 
       },
       dealershipId: {
-        type: mongoose.SchemaTypes.ObjectId,
+        type: Schema.Types.ObjectId,
         required: true,
         ref: 'Dealership'
       },
       images: [{
         type: String,
-        required: true,
-      }]
+      }],
     }, 
     {
       timestamps: true 

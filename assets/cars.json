@@ -1,0 +1,310 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2023,
+        "price": 20000,
+        "condition": "new",
+        "dealershipId": "660aa17eae9a3481ec267a45",
+        "images": [
+          "https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638260/final-project/Final-Project-Images/Cars/Toyota/New/new-corolla_gmy8us.webp"
+        ]
+      }, 
+      {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "price": 18000,
+        "condition": "used",
+        "mileage": 25000,
+        "dealershipId":  "660aa17eae9a3481ec267a45",
+        "images": [
+          "https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638262/final-project/Final-Project-Images/Cars/Toyota/used/used-corolla_ctd7xu.webp"
+        ]
+      }, 
+    {
+        "make": "Toyota",
+        "model": "Yaris",
+        "year": 2023,
+        "price": 17000,
+        "condition": "new",
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638258/final-project/Final-Project-Images/Cars/Toyota/New/new-yaris_amu1mp.webp"]
+      },
+      {
+        "make": "Toyota",
+        "model": "Yaris",
+        "year": 2019,
+        "price": 15000,
+        "condition": "used",
+        "mileage": 30000,
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638260/final-project/Final-Project-Images/Cars/Toyota/used/used-yaris_qxoxll.webp"]
+      },
+      {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2023,
+        "price": 25000,
+        "condition": "new",
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638259/final-project/Final-Project-Images/Cars/Toyota/New/new-camry_f0sudo.webp"]
+      },
+      {
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2018,
+        "price": 22000,
+        "condition": "used",
+        "mileage": 40000,
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638261/final-project/Final-Project-Images/Cars/Toyota/used/used-camry_epfo42.webp"]
+      },
+      {
+        "make": "Toyota",
+        "model": "Tacoma",
+        "year": 2023,
+        "price": 34000,
+        "condition": "new",
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638259/final-project/Final-Project-Images/Cars/Toyota/New/new-tacoma_n3ptww.webp"]
+      },
+      {
+        "make": "Toyota",
+        "model": "Tacoma",
+        "year": 2018,
+        "price": 31000,
+        "condition": "used",
+        "mileage": 35000,
+        "dealershipId": "660aa061ae9a3481ec267a42",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638261/final-project/Final-Project-Images/Cars/Toyota/used/used-tacoma_fxfn1q.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2023,
+        "price": 22000,
+        "condition": "new",
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638268/final-project/Final-Project-Images/Cars/Honda/New/new-civic_iref36.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2019,
+        "price": 18000,
+        "condition": "used",
+        "mileage": 30000,
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638270/final-project/Final-Project-Images/Cars/Honda/used/used-civic_yrznoz.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2023,
+        "price": 26000,
+        "condition": "new",
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638266/final-project/Final-Project-Images/Cars/Honda/New/new-accord_wpmnsg.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2018,
+        "price": 21000,
+        "condition": "used",
+        "mileage": 40000,
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638269/final-project/Final-Project-Images/Cars/Honda/used/used-accord_vdaidj.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "CR-V",
+        "year": 2023,
+        "price": 28000,
+        "condition": "new",
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638267/final-project/Final-Project-Images/Cars/Honda/New/new-crv_cfcmmz.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "CR-V",
+        "year": 2018,
+        "price": 24000,
+        "condition": "used",
+        "mileage": 35000,
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638269/final-project/Final-Project-Images/Cars/Honda/used/used-crv_wt6obd.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Pilot",
+        "year": 2023,
+        "price": 34000,
+        "condition": "new",
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638267/final-project/Final-Project-Images/Cars/Honda/New/new-pilot_xgr4dh.webp"]
+      },
+      {
+        "make": "Honda",
+        "model": "Pilot",
+        "year": 2018,
+        "price": 30000,
+        "condition": "used",
+        "mileage": 45000,
+        "dealershipId": "660ab2358d40077a0ceb95e2",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638268/final-project/Final-Project-Images/Cars/Honda/used/used-pilot_w1i05v.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2023,
+        "price": 35000,
+        "condition": "new",
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638251/final-project/Final-Project-Images/Cars/Ford/New/new-f150_ykgcub.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2018,
+        "price": 30000,
+        "condition": "used",
+        "mileage": 50000,
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638253/final-project/Final-Project-Images/Cars/Ford/used/used-f-150_lqmduj.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2023,
+        "price": 36000,
+        "condition": "new",
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638249/final-project/Final-Project-Images/Cars/Ford/New/new-mustang_btjbnd.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2019,
+        "price": 32000,
+        "condition": "used",
+        "mileage": 30000,
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638252/final-project/Final-Project-Images/Cars/Ford/used/used-mustang_riekx8.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Explorer",
+        "year": 2023,
+        "price": 33000,
+        "condition": "new",
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638251/final-project/Final-Project-Images/Cars/Ford/New/new-explorer_iiobzm.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Explorer",
+        "year": 2018,
+        "price": 28000,
+        "condition": "used",
+        "mileage": 45000,
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638251/final-project/Final-Project-Images/Cars/Ford/used/used-explorer_wpa3a0.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Escape",
+        "year": 2023,
+        "price": 27000,
+        "condition": "new",
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638250/final-project/Final-Project-Images/Cars/Ford/New/new-escape_uqaya4.webp"]
+      },
+      {
+        "make": "Ford",
+        "model": "Escape",
+        "year": 2019,
+        "price": 23000,
+        "condition": "used",
+        "mileage": 40000,
+        "dealershipId": "660ab2538d40077a0ceb95e4",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638253/final-project/Final-Project-Images/Cars/Ford/used/used-escape_s2mjzi.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Soul",
+        "year": 2023,
+        "price": 19000,
+        "condition": "new",
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638254/final-project/Final-Project-Images/Cars/Kia/New/new-soul_uof8eb.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Soul",
+        "year": 2019,
+        "price": 16000,
+        "condition": "used",
+        "mileage": 40000,
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638257/final-project/Final-Project-Images/Cars/Kia/used/used-soul_idoc15.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2023,
+        "price": 29000,
+        "condition": "new",
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638254/final-project/Final-Project-Images/Cars/Kia/New/new-sorento_rg9omb.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Sorento",
+        "year": 2018,
+        "price": 25000,
+        "condition": "used",
+        "mileage": 50000,
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638256/final-project/Final-Project-Images/Cars/Kia/used/used-sorento_sbxv2o.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Sportage",
+        "year": 2023,
+        "price": 25000,
+        "condition": "new",
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638255/final-project/Final-Project-Images/Cars/Kia/New/new-sportage_erfnwt.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Sportage",
+        "year": 2019,
+        "price": 21000,
+        "condition": "used",
+        "mileage": 45000,
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638256/final-project/Final-Project-Images/Cars/Kia/used/used-sportage_w8hg62.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Stinger",
+        "year": 2023,
+        "price": 33000,
+        "condition": "new",
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638255/final-project/Final-Project-Images/Cars/Kia/New/new-stinger_n0qmka.webp"]
+      },
+      {
+        "make": "Kia",
+        "model": "Stinger",
+        "year": 2019,
+        "price": 28000,
+        "condition": "used",
+        "mileage": 30000,
+        "dealershipId": "660ab26d8d40077a0ceb95e6",
+        "images": ["https://res.cloudinary.com/dxaiqsqy4/image/upload/v1711638257/final-project/Final-Project-Images/Cars/Kia/used/used-stinger_lipz4u.webp"]
+      }
+]

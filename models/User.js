@@ -17,15 +17,17 @@ const userSchema = new Schema(
   privilege: { 
     type: String, 
     enum: ['admin', 'dealership-owner'],
-    required: true
+    required: true, 
+    default: 'dealership-owner'
   },
   dealership: {
-    type: mongoose.SchemaTypes.ObjectId,
+    type: Schema.Types.ObjectId,
     ref: 'Dealership',
   },
   profilePicture: {
     type: String,
     required: true,
+    default: "https://cvhrma.org/wp-content/uploads/2015/07/default-profile-photo.jpg"
   }
 }, 
   {
