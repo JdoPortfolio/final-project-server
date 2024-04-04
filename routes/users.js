@@ -45,6 +45,22 @@ router.get("/", isAuthenticated, isAdmin, (req, res, next) => {
       res.json(err);
     });
 });
+
+// Route to get users by privilege
+router.get("/privilege/:privilege", isAuthenticated, isAdmin, (req, res, next) => {
+  const { privilege } = req.params;
+
+  User.find({ privilege: privilege })
+    .populate("dealership")
+    .then(users => {
+      res.status(200).json(users);
+    })
+    .catch(err => {
+      console.error(err);
+      res.status(500).json({ message: "Error fetching users by privilege." });
+    });
+});
+
 // Only admin can find users
 router.get("/details/:userId", isAuthenticated, isAdmin, (req, res, next) => {
   const { userId } = req.params;
