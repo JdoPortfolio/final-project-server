@@ -36,7 +36,7 @@ router.post("/", isAuthenticated, isAdmin, (req, res, next) => {
 });
 
 // Admin can see all dealerships
-router.get("/", isAuthenticated, isAdmin, (req, res, next) => {
+router.get("/", (req, res, next) => {
   Dealership.find()
     .populate("owner") // Populate owner details from User model
     .then((foundDealerships) => {
@@ -50,7 +50,7 @@ router.get("/", isAuthenticated, isAdmin, (req, res, next) => {
 });
 
 // Admin can see specific dealership details
-router.get("/details/:dealershipId", isAuthenticated, isAdmin, (req, res, next) => {
+router.get("/details/:dealershipId", (req, res, next) => {
   const { dealershipId } = req.params;
   
   if (!mongoose.Types.ObjectId.isValid(dealershipId)) {

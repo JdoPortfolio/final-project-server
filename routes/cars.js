@@ -39,7 +39,7 @@ router.post("/", isAuthenticated, isDealershipOwner, (req, res, next) => {
 });
 
 // Get all cars (Dealership-owner only)
-router.get("/", isAuthenticated, isDealershipOwner, (req, res, next) => {
+router.get("/", (req, res, next) => {
   Car.find()
     .then((foundCars) => {
       console.log("Found cars ===>", foundCars);
@@ -51,8 +51,24 @@ router.get("/", isAuthenticated, isDealershipOwner, (req, res, next) => {
     });
 });
 
+
+
+router.get("/:dealershipId", async (req, res, next) => {
+
+  try {
+    const {dealershipId} = req.params
+    const carsFromDealership = await Car.find({dealershipId: dealershipId})
+
+    return res.status(200).json(carsFromDealership)
+  } catch (error) {
+    console.log(error)
+    return res.status(500).json({msg: "error getting cars from specific dealership"})
+  }
+  
+    
+});
 // Get a specific car by ID (Dealership-owner only)
-router.get("/:carId", isAuthenticated, isDealershipOwner, (req, res, next) => {
+router.get("/:carId", (req, res, next) => {
   const { carId } = req.params;
 
   if (!mongoose.Types.ObjectId.isValid(carId)) {
