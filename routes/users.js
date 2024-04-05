@@ -62,7 +62,7 @@ router.get("/privilege/:privilege", isAuthenticated, isAdmin, (req, res, next) =
 });
 
 // Only admin can find users
-router.get("/details/:userId", isAuthenticated, isAdmin, (req, res, next) => {
+router.get("/details/:userId", (req, res, next) => {
   const { userId } = req.params;
   
   if (!mongoose.Types.ObjectId.isValid(userId)) {

@@ -109,11 +109,9 @@ router.post('/login', (req, res, next) => {
         const passwordCorrect = bcrypt.compareSync(password, foundUser.password);
    
         if (passwordCorrect) {
-          // Deconstruct the user object to omit the password
-          const { _id, email, name, privilege } = foundUser;
-          
-          // Create an object that will be set as the token payload
-          const payload = { _id, email, name, privilege }; // Add 'privilege' to the payload
+          const { _id, email, name, privilege, dealership, profilePicture } = foundUser;
+          // Now include 'dealership' and 'profilePicture' in the payload
+          const payload = { _id, email, name, privilege, dealership, profilePicture };
    
           // Create and sign the token
           const authToken = jwt.sign( 

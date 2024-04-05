@@ -49,7 +49,7 @@ router.get("/", (req, res, next) => {
     });
 });
 
-// Admin can see specific dealership details
+
 router.get("/details/:dealershipId", (req, res, next) => {
   const { dealershipId } = req.params;
   
